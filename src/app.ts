@@ -87,7 +87,7 @@ class ProjectInput {
   }
 
   private attach() {
-    this.hostElement.insertAdjacentElement("afterbegin2", this.element);
+    this.hostElement.insertAdjacentElement("afterbegin", this.element);
   }
 }
 
